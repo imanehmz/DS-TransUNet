@@ -957,7 +957,7 @@ class UNet(nn.Module):
                 nn.Upsample(scale_factor=4)
         )
         dim_s = 96
-        dim_l = 128
+        dim_l = 96
         self.m1 = nn.Upsample(scale_factor=2)
         self.m2 = nn.Upsample(scale_factor=4)
         tb = dim_s + dim_l
