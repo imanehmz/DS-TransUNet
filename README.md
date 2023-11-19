@@ -1,5 +1,7 @@
 # DS-TransUNet
 This repository contains the official code of DS-TransUNet: Dual Swin Transformer U-Net for Medical Image Segmentation
+# Customized usage by Imane:
+to train on the nuclei dataset, take the file found in lib and instantiate the model using the class UNet
 
 ## Requirements
 * `Python==3.7.6`
